@@ -1,6 +1,7 @@
 # folders to ignore
 /public/
 /resources/_gen/
+/themes/
 # Extensions to ignore
 *.bak
 *.tmp
