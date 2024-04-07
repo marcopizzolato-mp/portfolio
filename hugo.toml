@@ -1,0 +1,4 @@
+baseURL = "https://marcopizzolato.com/"
+languageCode = 'en-us'
+title = "Marco Pizzolato Portfolio"
+theme = 'lightbi-hugo'
