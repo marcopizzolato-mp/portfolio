@@ -1,0 +1,8 @@
+# folders to ignore
+/public/
+/resources/_gen/
+# Extensions to ignore
+*.bak
+*.tmp
+*.lock
+.DS_Store
