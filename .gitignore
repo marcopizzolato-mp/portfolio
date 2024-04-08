@@ -2,6 +2,7 @@
 /public/
 /resources/_gen/
 /themes/
+/.idea/
 # Extensions to ignore
 *.bak
 *.tmp
