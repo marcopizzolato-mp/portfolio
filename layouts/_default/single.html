@@ -5,9 +5,16 @@
 
       <div class="card-image card-image-blog p-0">
         {{ $ := . }}
-        {{ with partial "get_image" . }}
-          {{ if not (strings.Contains $.Content $.Params.image) }}
-            <img src="{{ .RelPermalink }}" alt="{{ .Title }}" class="card-img-bottom rounded img-fluid lazyload">
+        {{ if .Params.imageart }}  <!-- Check if image-art parameter exists -->
+          {{ $imgContext := dict "Params" (dict "image" .Params.imageart) "Resources" .Resources }}  <!-- Create a new context where "image" is set to "image-art" not to duplicate the Partial-->
+          {{ $imageArt := partial "get_image" $imgContext }}  <!-- Call get_image with the new context -->
+          {{ with $imageArt }}
+            {{ if not (strings.Contains $.Content .RelPermalink) }}  <!-- Check if the image URL is not in the content -->
+              <figure class="blog-front-image">
+                <img src="{{ .RelPermalink }}" alt="{{ .Title }}" class="img-fluid rounded lazyload img-border"> <!-- Use the image resource returned by get_image -->
+                <figcaption>{{ $.Params.imageartcapt }}</figcaption>
+              </figure>
+            {{ end }}
           {{ end }}
         {{ end }}
 
