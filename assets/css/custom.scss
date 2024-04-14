@@ -1,0 +1,35 @@
+
+.remove-borders {
+  table tr td {
+    border-bottom: none;
+  }
+}
+
+.custom-table-a {
+
+    a {
+        color: #008AFF;
+        font-style: italic;
+    }       
+
+    table tr td {
+      border-bottom: 1px solid #ccc; // Only horizontal borders
+      border: none;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px;
+    }
+    
+    table th, td {
+      border-bottom: 1px solid #ccc; // Only horizontal borders
+      border: none;
+    }
+
+    th {
+      background-color: #76a8e2; // A pleasant blue background for the header
+      color: #fff; // White text color for contrast
+    }
+
+}
+
+
