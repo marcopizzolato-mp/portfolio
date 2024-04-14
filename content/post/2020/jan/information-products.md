@@ -3,7 +3,7 @@ title: Information Products
 date: 2020-06-15
 tags: ["SouthSudan","GIS"]
 image : "/img/information_products/particip_mapping_16x9.jpg"
-Description  : "List of all information products published with REACH Initiative while in South sudan"
+description  : "List of all information products published with REACH Initiative while in South sudan"
 ---
 
 # Maps, Factsheets, Reports and more
