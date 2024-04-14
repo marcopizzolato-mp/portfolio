@@ -32,4 +32,28 @@
 
 }
 
+/*CAPTION STYLE*/
 
+.blog-front-image {
+  // Specific styles for img inside .blog-front-image, if needed
+  // img {
+  //   // Add styles for the img element if needed, e.g., border, shadow
+  // }
+
+  figcaption {
+    // SCSS nested style for figcaption inside .blog-front-image
+    font-size: smaller;
+    font-style: italic;
+    text-indent: 0;
+    color: rgba(150, 150, 150, 1); // Corrected opacity value from 100 to 1
+  }
+}
+
+.img-border {
+  border-radius: 0.15rem;
+  // max-width: 85%;
+  // margin-top: 0.8em;
+  margin-bottom: 0.2em;
+  border: 1px solid rgb(202, 202, 202);
+  padding: 3px;
+}
