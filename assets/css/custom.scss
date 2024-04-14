@@ -1,3 +1,15 @@
+/* --- General --- */
+
+body {
+  color: #121212;
+}
+
+
+a:hover,
+a:focus {
+  color: #5D3FD3;
+  text-decoration: none;
+}
 
 .remove-borders {
   table tr td {
@@ -11,6 +23,12 @@
         color: #008AFF;
         font-style: italic;
     }       
+
+    a:hover,
+    a:focus {
+      color: #5D3FD3;
+      text-decoration: none;
+    }
 
     table tr td {
       border-bottom: 1px solid #ccc; // Only horizontal borders
@@ -26,7 +44,7 @@
     }
 
     th {
-      background-color: #76a8e2; // A pleasant blue background for the header
+      background-color: #0F52BA; // A pleasant blue background for the header cobalt: 0047AB
       color: #fff; // White text color for contrast
     }
 
@@ -56,4 +74,10 @@
   margin-bottom: 0.2em;
   border: 1px solid rgb(202, 202, 202);
   padding: 3px;
+}
+
+/*FOOTER STYLE*/
+
+footer {
+  padding: 30px 0;
 }
