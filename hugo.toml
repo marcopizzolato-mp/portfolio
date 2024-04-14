@@ -10,6 +10,7 @@ Paginate = 6
 summaryLength  = "30"
 
 [Params]
+since=2024
 selfHosted = true
 mainSections = ["post","posts"]
 dateFormat = "02 January 2006"
@@ -39,6 +40,7 @@ previewCardImagePlacement = "bottom"
 
 [Author]
   name = "Marco Pizzolato"
+  topic = "Portfolio"
   website = "https://marcopizzolato.com/"
 #  email = "sample@gmail.com"
   linkedin = "pizzolatomarco"
