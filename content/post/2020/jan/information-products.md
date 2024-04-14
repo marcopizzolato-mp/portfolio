@@ -4,8 +4,8 @@ date: 2020-06-15
 tags: ["SouthSudan","GIS"]
 image : "/img/information_products/particip_mapping_16x9.jpg"
 description  : "List of all information products published with REACH Initiative while in South sudan"
-image-art: "/img/information_products/ssd_focusgroup.jpg"
-image-art-capt: "Focus group discussion held in Akobo, South Sudan"
+imageart: "/img/information_products/ssd_focusgroup.jpg"
+imageartcapt: "Focus group discussion held in Akobo, South Sudan"
 ---
 
 # Maps, Factsheets, Reports and more
