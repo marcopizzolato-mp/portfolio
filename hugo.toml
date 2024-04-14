@@ -10,6 +10,7 @@ Paginate = 6
 summaryLength  = "30"
 
 [Params]
+since=2024
 selfHosted = true
 mainSections = ["post","posts"]
 dateFormat = "02 January 2006"
@@ -27,7 +28,7 @@ lastmod = false
 rss = false
 pagination = "10"
 hideAuthor = false
-authorInfo = "She was born to be free, let her run wild in her own way and you will never lose her."
+authorInfo = "Data Engineer and Geospatial Expert"
 description="Personal portfolio of Marco Pizzolato, Data Engineer and Geospatial Expert."
 previewCardImagePlacement = "bottom"
 
@@ -39,6 +40,7 @@ previewCardImagePlacement = "bottom"
 
 [Author]
   name = "Marco Pizzolato"
+  topic = "Portfolio"
   website = "https://marcopizzolato.com/"
 #  email = "sample@gmail.com"
   linkedin = "pizzolatomarco"
