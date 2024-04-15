@@ -1,0 +1,11 @@
+<div class="card-image card-image-blog p-0">
+    <figure class="blog-front-image">
+        <img src="{{ .Get "src" | absURL }}" alt="{{ .Get "alt" }}" class="img-fluid rounded lazyload img-border">
+        <figcaption>{{ .Get "caption"}}</figcaption>
+    </figure>
+    {{ if .Inner }}
+    <div class="additional-content">
+        {{ .Inner | markdownify }}
+    </div>
+    {{ end }}
+</div>
