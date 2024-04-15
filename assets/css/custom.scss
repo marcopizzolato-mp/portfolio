@@ -4,6 +4,14 @@ body {
   color: #121212;
 }
 
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+}
 
 a:hover,
 a:focus {
@@ -74,6 +82,7 @@ a:focus {
   margin-bottom: 0.2em;
   border: 1px solid rgb(202, 202, 202);
   padding: 3px;
+  padding-top: 3px;
 }
 
 /*FOOTER STYLE*/
