@@ -3,8 +3,8 @@ title: South Sudan Maps
 date: 2020-08-15
 description  : "Reference maps created to support the humanitarian crisis response"
 tags: ["SouthSudan","GIS","Maps"]
-image : "/img/south_sudan/ssd_cover_16x9.jpg"
-imageart: "/img/south_sudan/ssd_ref_1mb-min.jpg"
+image : "ssd_cover_16x9.jpg"
+imageart: "ssd_ref_1mb-min.jpg"
 imageartcapt: "Reference map of South Sudan as of April 2017."
 ---
 
@@ -26,19 +26,18 @@ To support the efforts of humanitarian organizations operating in South Sudan, I
 ## States Atlas
 
 Together with the [South Sudan reference map][reach_ssd_map_southsudan] I published also a [National Atlas][reach_ssd_maps_stateatlas] which report the detailed location of several small villages, making use of the Humanitarian Data Exchange settlement dataset. 
+       
+       
+{{< figure dclass="card-image card-image-blog p-0" fclass="blog-front-image" iclass="img-fluid rounded img-border" src="jongley_ssd_maps_stateatlas_7february2017.jpg" alt="Map of Jonglei State" caption="Figure 1 - Jonglei State, from the Atlas of South Sudan as of February 2017." >}}
 
-<!-- href="https://www.impact-repository.org/document/reach/f5e99332/reach_ssd_maps_stateatlas_7february2017.pdf"  -->
-{{< customimage src="/img/south_sudan/jongley.jpg" alt="Jongley State of South Sudan" caption="Figure 1 - Jonglei State, from the Atlas of South Sudan as of February 2017." >}}
-{{< /customimage >}}
+
 
 ## Capital Juba
 
 Juba, the capital of the Republic, features very few landmarks and tarmac roads but is characterized by a complex labyrinth of unpaved and unnamed roads that weave from the city center to its outskirts. This makes it challenging at times to discern the exact neighborhood one is in. To aid NGOs during their annual cholera responses, I developed a city reference map that details all neighborhoods, main roads, and building footprints.   
 This base map proved to be crucial in the summer of 2016, when Juba experienced a sudden and violent outbreak. The violence forced many citizens to flee their homes, seeking protection and humanitarian assistance in various locations across the city.
 
-
-{{< customimage src="/img/idp_juba_single.jpg" alt="Displacement during 2016 crisis of South Sudan" caption="Figure 2 - Displacement of people in Juba, Capital of South Sudan, during the violent clashes in July 2016." >}}
-{{< /customimage >}}
+{{< figure dclass="card-image card-image-blog p-0" fclass="blog-front-image" iclass="img-fluid rounded img-border" src="reach_ssd_juba_rapididpestimation_july2016.gif" alt="Map of Juba displaced people" caption="Figure 2 - Displacement of people in Juba, Capital of South Sudan, during the violent clashes in July 2016." >}}
 
 
 [reach_ssd_map_southsudan]:https://www.impact-repository.org/document/reach/94fd7237/reach_ssd_map_southsudan_15june2017_a3l_0.pdf
