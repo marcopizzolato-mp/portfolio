@@ -3,6 +3,7 @@
 /resources/_gen/
 /themes/
 /.idea/
+/archive/
 # Extensions to ignore
 *.bak
 *.tmp
