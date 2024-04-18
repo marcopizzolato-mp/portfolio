@@ -1,0 +1,11 @@
+# folders to ignore
+/public/
+/resources/_gen/
+/themes/
+/.idea/
+/archive/
+# Extensions to ignore
+*.bak
+*.tmp
+*.lock
+.DS_Store

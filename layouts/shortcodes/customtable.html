@@ -1,0 +1,7 @@
+<div class="remove-borders custom-table-a">
+    {{ with .Get "caption" }}
+    <figcaption>{{ . }}</figcaption>
+    {{ end }}
+    {{ .Inner | markdownify }}
+
+</div>

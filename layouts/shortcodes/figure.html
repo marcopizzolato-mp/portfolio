@@ -1,0 +1,20 @@
+<!--
+Put this file in /layouts/shortcodes/figure.html
+NB this overrides Hugo's built-in "figure" shortcode.
+-->
+
+
+<!-- image -->
+<div {{ with .Get "dclass" }}class="{{ . }}"{{ end }}>
+  <figure {{ with .Get "fclass" }}class="{{ . }}"{{ end }}>
+
+    {{ with .Get "link" }}<a href="{{ . }}" >{{ end }}
+
+      <img {{ with .Get "iclass" }}class="{{ . }}"{{ end }} src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"{{ end }} />
+      {{ if .Get "link" }}</a>{{ end }}
+        <!-- Only display the caption if one is provided -->
+        {{ with .Get "caption" }}
+        <figcaption>{{ . }}</figcaption>
+        {{ end }}
+  </figure>
+</div>
