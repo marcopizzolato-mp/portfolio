@@ -13,6 +13,11 @@ h2 {
   margin-bottom: 0.3rem;
 }
 
+h3, h4, h5 {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
 a:hover,
 a:focus {
   color: #5D3FD3;
@@ -40,7 +45,6 @@ a:focus {
 
     table tr td {
       border-bottom: 1px solid #ccc; // Only horizontal borders
-      border: none;
       text-align: left;
       margin: 0;
       padding: 6px 13px;
@@ -60,29 +64,31 @@ a:focus {
 
 /*CAPTION STYLE*/
 
-.blog-front-image {
-  // Specific styles for img inside .blog-front-image, if needed
-  // img {
-  //   // Add styles for the img element if needed, e.g., border, shadow
-  // }
+// .blog-front-image {
+//   // Specific styles for img inside .blog-front-image, if needed
+//   // img {
+//   //   // Add styles for the img element if needed, e.g., border, shadow
+//   // }
+  // SCSS nested style for figcaption inside .blog-front-image
+// }
 
-  figcaption {
-    // SCSS nested style for figcaption inside .blog-front-image
-    font-size: smaller;
-    font-style: italic;
-    text-indent: 0;
-    color: rgba(150, 150, 150, 1); // Corrected opacity value from 100 to 1
-  }
+figcaption {
+  font-size:medium;
+  font-style: italic;
+  text-indent: 0;
+  color: rgba(150, 150, 150, 1); // Corrected opacity value from 100 to 1
+  padding-bottom: 0.5rem;
 }
 
+
 .img-border {
-  border-radius: 0.15rem;
+  border-radius: 0.35rem;
   // max-width: 85%;
   // margin-top: 0.8em;
   margin-bottom: 0.2em;
-  border: 1px solid rgb(202, 202, 202);
-  padding: 3px;
-  padding-top: 3px;
+  border: 2px solid rgb(202, 202, 202);
+  padding: 3.5px;
+  padding-top: 3.5px;
 }
 
 /*FOOTER STYLE*/
