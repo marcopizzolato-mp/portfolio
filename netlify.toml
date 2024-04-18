@@ -1,30 +1,25 @@
+# Global settings for the Hugo site
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "git submodule update --init --recursive && hugo mod get -u && hugo --gc --minify"
 
-[context.production.environment]
+# Default environment variables for all contexts unless overridden
+[build.environment]
 HUGO_VERSION = "0.124.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
+# Production-specific settings
+[context.production]
+
+# Settings for a specific context named 'split1'
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
 
-[context.split1.environment]
-HUGO_VERSION = "0.124.1"
-HUGO_ENV = "production"
-
+# Deploy preview settings
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.124.1"
-
+# Branch-specific deploy settings
 [context.branch-deploy]
 command = "hugo -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.124.1"
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
