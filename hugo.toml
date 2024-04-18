@@ -2,12 +2,17 @@ baseURL = "https://marcopizzolato.com/"
 DefaultContentLanguage = "en"
 languageCode = 'en-us'
 title = "Marco Pizzolato Portfolio"
-theme = 'lightbi-hugo'
+#theme = 'lightbi-hugo'
 metaDataFormat = "yaml"
 enableRobotsTXT = true
 enableGitInfo = false
 Paginate = 6
 summaryLength  = "30"
+
+[module]
+  [[module.imports]]
+    path = "https://github.com/binokochumolvarghese/lightbi-hugo"  # Replace this with the actual path to the module
+
 
 [Params]
 since=2024
@@ -71,5 +76,3 @@ previewCardImagePlacement = "bottom"
 #    name = "Collections"
 #    url = "/collections/"
 #    weight = 4
-
-
