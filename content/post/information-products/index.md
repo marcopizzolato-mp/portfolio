@@ -2,7 +2,7 @@
 title: Information Products
 date: 2020-06-15
 description  : "List of all information products published with REACH Initiative while in South Sudan"
-tags: ["SouthSudan","GIS","Maps"]
+tags: ["SouthSudan","GIS","HumanitarianResponse","Maps"]
 image : "particip_mapping_16x9.jpg"
 imageart: "ssd_focusgroup.jpg"
 imageartcapt: "Focus group discussion held in Akobo, South Sudan."

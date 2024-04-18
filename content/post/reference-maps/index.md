@@ -2,7 +2,7 @@
 title: South Sudan Maps
 date: 2020-08-15
 description  : "Reference maps created to support the humanitarian crisis response"
-tags: ["SouthSudan","GIS","Maps"]
+tags: ["SouthSudan","GIS","HumanitarianResponse","Maps"]
 image : "ssd_cover_16x9.jpg"
 imageart: "ssd_ref_1mb-min.jpg"
 imageartcapt: "Reference map of South Sudan as of April 2017."
