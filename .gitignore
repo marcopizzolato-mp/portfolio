@@ -1,7 +1,6 @@
 # folders to ignore
 /public/
 /resources/_gen/
-/themes/
 /.idea/
 /archive/
 # Extensions to ignore
