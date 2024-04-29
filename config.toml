@@ -3,7 +3,6 @@ DefaultContentLanguage = "en"
 languageCode = 'en-us'
 title = "Marco Pizzolato Portfolio"
 theme = 'lightbi-hugo'
-theme = 'lightbi-hugo'
 metaDataFormat = "yaml"
 enableRobotsTXT = true
 enableGitInfo = false
@@ -73,5 +72,3 @@ previewCardImagePlacement = "bottom"
 #    name = "Collections"
 #    url = "/collections/"
 #    weight = 4
-
-
