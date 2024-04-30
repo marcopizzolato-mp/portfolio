@@ -1,8 +1,29 @@
+# Global build settings
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+# Global environment variables
 [build.environment]
 HUGO_VERSION = "0.124.1"
 TZ = "Europe/London"
 HUGO_ENABLEGITINFO = "true"
 
-[build]
-publish = "public"
+# Production environment settings (main branch)
+[context.main]
 command = "hugo --gc --minify"
+
+[context.main.environment]
+HUGO_VERSION = "0.124.1"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+# Development environment settings (develop branch)
+[context.develop]
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.develop.environment]
+HUGO_VERSION = "0.124.1"
+HUGO_ENV = "development"
+HUGO_ENABLEGITINFO = "true"
+TZ = "Europe/London"
