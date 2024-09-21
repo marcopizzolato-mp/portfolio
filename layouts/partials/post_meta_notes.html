@@ -2,11 +2,10 @@
   {{ $lastmodstr := default (i18n "dateFormat") .Site.Params.dateformat | .Lastmod.Format }}
   {{ $datestr := default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
 
-<!--  {{ $datestr }}   &nbsp;|&nbsp;-->
-
-<!--  {{ if and .Site.Params.lastmod (ne $datestr $lastmodstr) }}-->
-<!--  {{ i18n "lastModified" $lastmodstr }}-->
-<!--  {{ end }}-->
+  <!-- {{ $datestr }}   &nbsp;|&nbsp;
+    {{ if and .Site.Params.lastmod (ne $datestr $lastmodstr) }}
+    {{ i18n "lastModified" $lastmodstr }}
+  {{ end }} -->
 
   {{ if .Site.Params.readingTime }}
   <i class="bi bi-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" .ReadingTime }}
