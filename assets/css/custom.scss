@@ -56,15 +56,27 @@ a:focus {
     }
 
     th {
-      background-color: #0F52BA; // A pleasant blue background for the header cobalt: 0047AB
+      background-color: #0047AB; // A pleasant blue background for the header cobalt: 0047AB #0F52BA
       color: #fff; // White text color for contrast
     }
-    
+
     // Add padding (or margin) after the table
     table {
       margin-bottom: 20px; // Adjust the value to add space after the table
     }
 }
+
+/* --- Dark mode --- */
+
+:root[data-theme="dark"] .custom-table-a {
+
+  th {
+    background-color: #0047AB; // A pleasant blue background for the header cobalt: 0047AB
+    color: #131313; // White text color for contrast
+  }
+  
+}
+
 
 /*CAPTION STYLE*/
 
