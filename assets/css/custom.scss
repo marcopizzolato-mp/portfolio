@@ -96,3 +96,8 @@ figcaption {
 footer {
   padding: 30px 0;
 }
+
+
+.blog-tags a:before {
+  content: "TAG: ";
+}
