@@ -59,7 +59,11 @@ a:focus {
       background-color: #0F52BA; // A pleasant blue background for the header cobalt: 0047AB
       color: #fff; // White text color for contrast
     }
-
+    
+    // Add padding (or margin) after the table
+    table {
+      margin-bottom: 20px; // Adjust the value to add space after the table
+    }
 }
 
 /*CAPTION STYLE*/
