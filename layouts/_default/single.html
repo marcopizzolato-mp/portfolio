@@ -36,9 +36,12 @@
 
   {{ if or .Params.tags (not .Site.Params.hideAuthor) ($.Param "socialShare") (ne .Type "page") }}
   <div class="row">
+    <!-- Additional line to keep it clear -->       
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-      <hr class="m-0"/>
+      <hr class="m-0"/> 
     </div>
+    
+    <!-- TAGS -->  
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
       {{ if .Params.tags }}
       <div class="blog-tags">
@@ -47,17 +50,8 @@
         {{ end }}
       </div>
       {{ end }}
-    </div>
+    </div> 
 
-    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
-      {{ if $.Param "socialShare" }}
-      <section id="social-share">
-        <div class="list-inline footer-links">
-          {{ partial "share-links" . }}
-        </div>
-      </section>
-      {{ end }}
-    </div>
 
     {{ if not .Site.Params.hideAuthor }}
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-3">
@@ -91,6 +85,18 @@
         </div>
       </div>
     </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      {{ if $.Param "socialShare" }}
+      <section id="social-share">
+        <div class="list-inline footer-links">
+          {{ partial "share-links" . }}
+        </div>
+      </section>
+      {{ end }}
+    </div>
+
+
     {{ end }}
 
     <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
