@@ -7,13 +7,23 @@
     {{ i18n "lastModified" $lastmodstr }}
   {{ end }} -->
 
-  {{ if .Site.Params.readingTime }}
-  <i class="bi bi-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" .ReadingTime }}
+  {{ if .Params.tags }}
+  <i class="bi bi-tags"></i>
+  {{ $color := .Params.hex | default "#FFC8C0" }}  <!-- Default color if not specified -->
+  <span class="" style="background-color: {{ $color }}; padding: 2px 8px 4px 8px; border-radius: 4px;">
+    {{ delimit .Params.tags ", " }}  <!-- Joins tags with ", " and removes brackets -->
+  </span>&nbsp;&nbsp;
   {{ end }}
 
-  {{ if .Site.Params.wordCount }}
-  &nbsp;|&nbsp;<i class="bi bi-book"></i>&nbsp;{{ .WordCount }}&nbsp;{{ i18n "words" .WordCount }}
+
+  {{ if .Site.Params.readingTime }}
+  <i class="bi bi-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" .ReadingTime }}&nbsp;&nbsp;&nbsp;
   {{ end }}
+
+  
+  <!-- {{ if .Site.Params.wordCount }}
+  &nbsp;|&nbsp;<i class="bi bi-book"></i>&nbsp;{{ .WordCount }}&nbsp;{{ i18n "words" .WordCount }}
+  {{ end }} -->
 
   {{ if .IsTranslated -}}
   {{- $sortedTranslations := sort .Translations "Site.Language.Weight" -}}

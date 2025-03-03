@@ -2,7 +2,8 @@
 title: Cholera Response DRC
 date: 2021-02-16
 description  : "Extracting villages location and population estimates to support WASH activity in Democratic Republic of Congo"
-tags: ["WASH","HumanitarianResponse","GIS"]
+tags: ["R"]
+hex: "#84C5E6"
 image : "cholera_frontpage_16x9.jpg"
 imageart: "village_river_min.jpg"
 imageartcapt: "Village along the river, Bor, South Sudan."
