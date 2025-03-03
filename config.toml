@@ -17,6 +17,7 @@ mainSections = ["post","posts"]
 dateFormat = "02 January 2006"
 comments = false
 readingTime = true
+articleTags = true
 wordCount = false
 useHLJS = true
 socialShare = true
