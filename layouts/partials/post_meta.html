@@ -1,15 +1,15 @@
 <span class="post-meta">
-  {{ $lastmodstr := default (i18n "dateFormat") .Site.Params.dateformat | .Lastmod.Format }}
-  {{ $datestr := default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
+  <!-- {{ $lastmodstr := default (i18n "dateFormat") .Site.Params.dateformat | .Lastmod.Format }}
+  {{ $datestr := default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }} -->
   <!-- &nbsp;{{ $datestr  }} -->
 
-  {{ if .Site.Params.readingTime }}
+  <!-- {{ if .Site.Params.readingTime }}
   <i class="bi bi-clock"></i>&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" .ReadingTime }}
   {{ end }}
 
   {{ if .Site.Params.wordCount }}
     &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;{{ .WordCount }}&nbsp;{{ i18n "words" .WordCount }}
-  {{ end }}
+  {{ end }} -->
 
 
 
