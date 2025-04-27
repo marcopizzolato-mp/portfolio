@@ -7,10 +7,11 @@
     {{ i18n "lastModified" $lastmodstr }}
   {{ end }} -->
 
+
   {{ if .Params.tags }}
   <i class="bi bi-tags"></i>
   {{ $color := .Params.hex | default "#FFC8C0" }}  <!-- Default color if not specified -->
-  <span class="" style="background-color: {{ $color }}; padding: 2px 8px 4px 8px; border-radius: 4px;">
+    <span class="tag-badge" {{ printf `style="background-color: %s;"` $color | safeHTMLAttr }}>
     {{ delimit .Params.tags ", " }}  <!-- Joins tags with ", " and removes brackets -->
   </span>&nbsp;&nbsp;
   {{ end }}

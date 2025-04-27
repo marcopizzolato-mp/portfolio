@@ -117,3 +117,12 @@ footer {
 .blog-tags a:before {
   content: "TAG: ";
 }
+
+// This is for the coloured tag in the cards page 
+.tag-badge {
+  padding: 2px 8px 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  // color: rgb(0, 0, 0); /* Default text color */
+}
+
