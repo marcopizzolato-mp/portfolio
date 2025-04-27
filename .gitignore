@@ -8,3 +8,5 @@
 *.tmp
 *.lock
 .DS_Store
+
+/.quarto/

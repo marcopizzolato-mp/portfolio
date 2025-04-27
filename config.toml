@@ -7,7 +7,7 @@ metaDataFormat = "yaml"
 enableRobotsTXT = true
 enableGitInfo = false
 Paginate = 6
-summaryLength  = "30"
+summaryLength  = 30
 
 
 [Params]
@@ -23,7 +23,7 @@ useHLJS = true
 socialShare = true
 delayDisqus = true
 showRelatedPosts = true
-summaryLength  = "9"
+summaryLength  = 30
 lunrSearch = true
 gcse = false
 lastmod = false
@@ -34,19 +34,20 @@ authorInfo = "Data Engineer and Geospatial Expert"
 description="Personal portfolio of Marco Pizzolato, Data Engineer and Geospatial Expert."
 previewCardImagePlacement = "bottom"
 
+[Params.author]
+  name = "Marco Pizzolato"
+  topic = "Portfolio"
+  website = "https://marcopizzolato.com/"
+#   email = "sample@gmail.com"
+  linkedin = "pizzolatomarco"
+  github = "marcopizzolato-mp"
+
 
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
 
-[Author]
-  name = "Marco Pizzolato"
-  topic = "Portfolio"
-  website = "https://marcopizzolato.com/"
-#  email = "sample@gmail.com"
-  linkedin = "pizzolatomarco"
-  github = "marcopizzolato-mp"
 
 
 [[menu.main]]
