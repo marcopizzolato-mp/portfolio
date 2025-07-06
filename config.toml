@@ -6,8 +6,10 @@ theme = 'lightbi-hugo'
 metaDataFormat = "yaml"
 enableRobotsTXT = true
 enableGitInfo = false
-Paginate = 6
-summaryLength  = 30
+ignoreLogs = ['warning-goldmark-raw-html']
+[pagination]
+  pagerSize = 6
+summaryLength  = "30"
 
 
 [Params]
@@ -48,6 +50,13 @@ previewCardImagePlacement = "bottom"
   priority = 0.5
   filename = "sitemap.xml"
 
+[Params.Author]
+  name = "Marco Pizzolato"
+  topic = "Portfolio"
+  website = "https://marcopizzolato.com/"
+#  email = "sample@gmail.com"
+  linkedin = "pizzolatomarco"
+  github = "marcopizzolato-mp"
 
 
 [[menu.main]]
