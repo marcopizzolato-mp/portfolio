@@ -119,5 +119,3 @@ link="https://marcopizzo.shinyapps.io/ShinyAfrique/" >}}
 [ghsl_data]:"https://ghsl.jrc.ec.europa.eu/datasets.php"
 [facebook_data]:"https://data.humdata.org/dataset/highresolutionpopulationdensitymaps"
 [shinyafrique-app]:"https://marcopizzo.shinyapps.io/ShinyAfrique/"
-
-<!-- Images by Marco Pizzolato -->
